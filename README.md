@@ -10,6 +10,7 @@ Jupyter notebooks for the **SVCM Terminology Consumer** test cases — ANS Proje
 1. `pip install requests jupyter nbstripout`
 2. `nbstripout --install` (strips outputs before commits)
 3. `export SMT_API_KEY="your-key"` then `jupyter notebook`
+   - To target a different FHIR server: `export FHIR_BASE="https://other-server/fhir"` (default: `https://smt.esante.gouv.fr/fhir`)
 4. Run each notebook top to bottom
 
 ## Notebooks
